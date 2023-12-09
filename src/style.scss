@@ -7,3 +7,70 @@ body {
   padding: 0;
   margin: 0;
 }
+
+.header {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(58, 57, 57);
+
+  .head-Wrap {
+    height: 500px;
+    width: 280px;
+    font-family: $fontOne;
+    background-color: rgb(31, 27, 27);
+    border-radius: 1rem;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    border: solid black 4px;
+
+    .number-Text {
+      padding: 0;
+      margin: 0;
+      margin-bottom: 5px;
+      font-size: 35px;
+    }
+
+    .ready-Text {
+      padding: 0;
+      margin: 0;
+      width: 100px;
+      margin-bottom: 15px;
+    }
+
+    .replay-Btn {
+      padding: 8px 30px;
+      text-align: center;
+      align-items: center;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      font-size: 15px;
+      font-family: $fontOne;
+      font-weight: 600;
+      background-color: rgb(58, 57, 57);
+      color: white;
+      border: solid black 2px;
+      border-radius: 1rem;
+    }
+
+    .replay-Btn:hover {
+      background-color: white;
+      color: black;
+      border: solid rgb(58, 57, 57) 2px;
+    }
+
+    .replay-Btn:active {
+      background-color: rgb(58, 57, 57);
+      color: white;
+      border: solid black 2px;
+    }
+  }
+}
