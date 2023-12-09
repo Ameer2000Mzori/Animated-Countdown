@@ -47,12 +47,14 @@ body {
       height: 100%;
       width: 100%;
       transform: rotate(130deg);
-      transition: all;
-      transition-duration: 1.5s;
+      transition: all ease-out;
+      transition-duration: 1.2s;
+      // opacity: 0;
     }
 
     .number-Wrap.active {
       transform: rotate(-130deg);
+      opacity: 1;
       // transform-origin: bottom left;
     }
 
